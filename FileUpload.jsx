@@ -38,11 +38,6 @@ export default class FileUpload extends React.Component
 		
 		return(
 			<div>
-			<AppBar title="Continuous Integration" iconClassNameRight="muidocs-icon-navigation-expand-more" />
- 				 <div className="upload">
-       				 <input type="file" name="upload" onChange={this.handleChange} id='filedata'/>
-    		     </div>
-    		     
 				 <Graph />
 			</div>
   			  );

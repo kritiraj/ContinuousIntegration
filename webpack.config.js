@@ -1,5 +1,5 @@
 var config = {
-   entry: './App.js',
+   entry: './main.js',
 	
    output: {
       path:'./',

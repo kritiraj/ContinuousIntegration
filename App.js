@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import FileUpload from './FileUpload.jsx';
+import App from './App.jsx';
 
 injectTapEventPlugin();
 ReactDOM.render(
 	<MuiThemeProvider>
-		<FileUpload />
+		<App />
 	</MuiThemeProvider>, document.getElementById('app'));
