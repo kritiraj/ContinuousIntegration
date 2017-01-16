@@ -1,8 +1,9 @@
 .upload {
     width: 157px !important;
     height: 57px !important;
-    background: url(upload.png) !important;
+    background: url(../images/upload.png) !important;
     overflow: hidden;
+    margin-left: 10px;
 }
 
 .upload input {
@@ -12,9 +13,3 @@
     opacity: 0 !important;
     overflow: hidden !important;
 }
-
-#container {
-    max-width: 500px;
-    height: 500px;
-    margin: auto;
-  }

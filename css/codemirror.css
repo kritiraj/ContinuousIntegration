@@ -4,12 +4,14 @@
   /* Set height, width, borders, and global font properties here */
   font-family: monospace;
   height: 300px;
-  width: 800px;
+  width: 500px;
   border:1px solid grey;
   margin-top: 10px;
   margin-bottom: 10px;
   color: black;
+
 }
+
 
 /* PADDING */
 

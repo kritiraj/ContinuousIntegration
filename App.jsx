@@ -16,9 +16,8 @@ class App extends React.Component {
     return (
       <div>
         <AppBar title="CI" iconClassNameRight="muidocs-icon-navigation-expand-more"/>
-        <JsCodeMirror/>
         <CodeMirror/>
-	
+
       </div>
     );
   }
